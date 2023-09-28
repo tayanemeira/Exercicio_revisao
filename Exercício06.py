@@ -1,0 +1,7 @@
+num = int(input("diga um numero "))
+if num == 10:
+    print ("este numero é igual a 10")
+elif num >10:
+    print ("é maior que 10")
+else:
+    print ("não é maior que 10")

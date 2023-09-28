@@ -1,0 +1,8 @@
+base = int(input("diga o numero da base: "))
+while base <= 0:
+    base = int(input("a base não pode ser 0.diga o numero da base: "))
+    altura = int(input("diga o numero da altura: "))
+while altura <=0:
+    altura = int(input("a altura não pode ser 0.diga o numero da altura: "))
+conta = (base*altura)/2
+print (conta)

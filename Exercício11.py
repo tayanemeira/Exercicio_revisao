@@ -1,0 +1,5 @@
+idade = int(input("diga a sua idade: "))
+mes = int(input("diga o mês de nascimento: "))
+dia = int(input("diga o dia de nascimento: "))
+soma = (idade * 365) + (mes * 30) + dia
+print (f"seu total de dias de vida será {soma}")
