@@ -1,0 +1,8 @@
+idade = int(input("diga sua idade "))
+mes = input("diga o mês que vc nasceu ")
+mes2 = input("diga o mês atual ")
+if mes >=mes2:
+    conta = 2023-idade-1
+else:
+    conta = 2023-idade
+print (f"seu ano de nascimento é {conta}")
